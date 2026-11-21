@@ -431,13 +431,14 @@ function drawMeme(): Canvas {
     ['VIOLATION:', 5, NAVY],
     ['DISTRACTED DRIVING', 5, INK],
     ["OFFICER'S REPORT:", 4, NAVY],
+    ['HE WAITED 13 YEARS.', 5, INK],
     ['HE SCROLLED.', 5, INK],
     ['THE CAR SWERVED.', 5, INK],
   ];
   let y = 326;
   for (const [s, scale, colour] of rows) {
     cv.text(48, y, s, scale, colour);
-    y += scale === 4 ? 52 : 58;
+    y += scale === 4 ? 46 : 50;
   }
 
   // --- The make.fun ghost, officer of the citation (right column) -----------
