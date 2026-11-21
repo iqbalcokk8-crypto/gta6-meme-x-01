@@ -420,7 +420,7 @@ function drawMeme(): Canvas {
   }
 
   // --- Citation number (the date lives on the X post, not the ticket) --------
-  cv.text(48, 256, 'CITATION No. LC-VI-2026', 4, NAVY);
+  cv.text(48, 256, 'CITATION No. GTA-VI-2026', 4, NAVY);
   cv.fillRect(48, 298, W - 96, 5, MAGENTA);
 
   // --- Body fields (left column, big type; the officer ghost is right) -----
